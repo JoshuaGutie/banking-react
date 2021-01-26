@@ -1,38 +1,97 @@
+/* Input amount page */
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  background:linear-gradient(white,transparent);
+  background-color: rgb(40, 226, 215,.3);
+  min-height: 100vh;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  
+}
+
+.input-amount{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width:50%;
+  margin: auto;
+}
+
+.input-amount Button{
+  width:50%;
+  margin: auto;
+}
+/*  Login page */
+
+.loginApp{
+  display: flex;
+  background:linear-gradient(white,transparent);
+  background-color:rgb(40, 226, 215,.3);
+  min-height: 100vh;
+  min-width: 100vw;
+  margin: 0;
+  padding: 0em;
+text-align: center;
+}
+
+.loginApp a {
+  margin-top: 10px;
+  text-decoration: none;
+  color: black;
+  background:linear-gradient(white,transparent);
+  background-color:rgb(47,150,163,.1);
+  transition: 1s;
+}
+
+.loginApp a:hover {
+  font-size: 105%; 
+}
+
+.login {
+  flex: 1;
+  height: 100vh;
+}
+
+.createCon {
+  flex: 1;
+}
+
+.createAcc{
+  margin: 10px;
+  margin-top: 0px;
+  width: 95%;
+  height: 90%;
+  background: url(background.jpg);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
   color: white;
+  text-align: left;
+  padding-left: 8%;
+  padding-top: 30%;
 }
 
-.App-link {
-  color: #61dafb;
+.userPass {
+margin-top: 20%;
+display: flex;
+flex-direction: column;
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.userPass Button{
+  margin:auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
+
+.textfield {
+   margin-top: 10px;
+}
+
